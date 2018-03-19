@@ -1,4 +1,4 @@
-var listItem = [];
+var listItem = []; // Declare listItem, give it the value of an empty array
 var form = document.getElementById('toDOList');
 form.addEventListener('submit', function(event) {
     event.preventDefault();
